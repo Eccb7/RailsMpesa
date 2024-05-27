@@ -47,3 +47,5 @@ end
 
 gem 'rack-cors'
 gem 'rest-client'
+# gem 'secureheaders'
+gem 'rack-attack'
