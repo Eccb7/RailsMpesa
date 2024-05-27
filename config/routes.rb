@@ -8,4 +8,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  post 'stkpush', to: 'mpesas#stkpush'
+  post 'stkquery', to: 'mpesas#stkquery'
+  post 'get_access_token', to: 'mpesa#get_access_token'
 end
